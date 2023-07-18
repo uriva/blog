@@ -209,7 +209,7 @@ This is because we can await on x in parallel to y. But why should we notice it 
 
 If we draw it, it becomes obvious.
 
-![](image.png)
+![](async-obvious.png)
 
 And so the computation graph library lets you mix async and synchronous functions, and even infers for you, using a topological sort, what can be run in parallel. This would be written as follows.
 
