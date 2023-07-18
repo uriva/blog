@@ -2,8 +2,8 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Blog",
-  description: "A VitePress Site",
+  title: "blog",
+  description: "blog",
   base: "/blog/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
