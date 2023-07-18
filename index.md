@@ -8,6 +8,9 @@ hero:
   tagline: My blog
   actions:
     - theme: brand
+      text: Graph programming
+      link: /graph-programming
+    - theme: brand
       text: Markdown Examples
       link: /markdown-examples
     - theme: alt
