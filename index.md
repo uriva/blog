@@ -8,6 +8,9 @@ hero:
   tagline: blog
   actions:
     - theme: alt
+      text: India - Journal of a Visit
+      link: /india-journal-of-a-visit
+    - theme: alt
       text: Graph programming
       link: /graph-programming
 ---
