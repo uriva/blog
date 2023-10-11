@@ -13,4 +13,7 @@ hero:
     - theme: alt
       text: Graph programming
       link: /graph-programming
+    - theme: alt
+      text: Movie quotes
+      link: /movie-quotes
 ---
