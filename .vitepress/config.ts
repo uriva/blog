@@ -1,5 +1,5 @@
+import { Markdown } from "./ext/markdown/markdown";
 import { defineConfig } from "vitepress";
-import { Markdown } from "./ext";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
