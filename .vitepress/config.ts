@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import { Markdown } from "./ext";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -11,4 +12,5 @@ export default defineConfig({
     sidebar: [],
     socialLinks: [{ icon: "github", link: "https://github.com/uriva/" }],
   },
+  markdown: Markdown,
 });
