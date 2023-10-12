@@ -1,11 +1,9 @@
 ﻿import { AppendIconToExternalLinks } from "./md-link";
-import { NaniScript } from "../language/language";
 import { Replacer } from "./md-replacer";
 
 /** @type import("vitepress").MarkdownOptions */
 export const Markdown = {
     config: installPlugins,
-    languages: [NaniScript],
     theme: "../../../docs/.vitepress/ext/language/naniscript-theme",
     attrs: { disable: true } // https://github.com/vuejs/vitepress/issues/2440
 };
