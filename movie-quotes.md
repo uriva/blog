@@ -2,7 +2,7 @@
 
 Hi there. I've built a bot that can find any quote or scene from any movie or tv show.
 
-<img src="quote-from-movie-screenshot.png" alt="drawing" width="290"/>
+<img src="./quote-from-movie-screenshot.png" alt="drawing" width="290"/>
 
 https://telegram.me/quote_from_movie_bot
 
