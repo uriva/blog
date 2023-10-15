@@ -4,7 +4,7 @@ Hi there. I've built a bot that can find any quote or scene from any movie or tv
 
 <img src="./quote-from-movie-screenshot.png" alt="drawing" width="200"/>
 
-https://telegram.me/quote_from_movie_bot
+<a href="https://telegram.me/quote_from_movie_bot" onclick="return gtag_report_conversion('http://example.com/your-link');">Open bot in telegram</a>
 
 I hope you like it. Please tweet me your feedback https://twitter.com/urivalev
 
