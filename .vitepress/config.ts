@@ -1,6 +1,8 @@
 import { defineConfig } from "vitepress";
 import { Markdown } from "./ext/markdown/markdown";
 
+const tagId = "AW-1031308281";
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "blog",
@@ -13,4 +15,21 @@ export default defineConfig({
     socialLinks: [{ icon: "github", link: "https://github.com/uriva/" }],
   },
   markdown: Markdown,
+  head: [
+    [
+      "script",
+      {
+        async: "",
+        src: `https://www.googletagmanager.com/gtag/js?id=${tagId}`,
+      },
+    ],
+    [
+      "script",
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '${tagId}');`,
+    ],
+  ],
 });
