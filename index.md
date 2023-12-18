@@ -16,4 +16,7 @@ hero:
     - theme: alt
       text: Movie quotes
       link: /movie-quotes
+    - theme: alt
+      text: My dev management principles
+      link: /dev-mgmt
 ---
