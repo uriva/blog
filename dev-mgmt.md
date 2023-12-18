@@ -143,6 +143,6 @@ Coding interviews are a great way to measure someone, they cut through all the b
 
 Cultural fit interviews should be done by team members, or be a side effect of a formal interview (coding interviews). This has worked for google for >15 years, to create the most pleasant work atmosphere I've been in.
 
-You read through to the end. Yay.
+## You read through to the end. Yay.
 
 I will probably update this in the future, but this is a good snapshot. Hope it is useful to you.
