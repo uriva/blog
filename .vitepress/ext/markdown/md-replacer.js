@@ -1,4 +1,4 @@
-﻿import { inherits } from "util";
+﻿import { inherits } from "node:util";
 
 // Based on https://github.com/rlidwka/markdown-it-regexp.
 
@@ -8,9 +8,9 @@ let instanceId = 0;
  *  @property {RegExp} regexp
  *  @property {(match: string[], env: MarkdownEnv) => string} replace */
 export function Replacer(regexp, replace) {
-    let self = md => self.init(md);
+    const self = md => self.init(md);
     self.__proto__ = Replacer.prototype;
-    self.regexp = new RegExp("^" + regexp.source, regexp.flags);
+    self.regexp = new RegExp(`^${regexp.source}`, regexp.flags);
     self.replace = replace;
     self.id = `md-replacer-${instanceId}`;
     instanceId++;
@@ -26,13 +26,13 @@ Replacer.prototype.init = function (md) {
 };
 
 Replacer.prototype.parse = function (state, silent) {
-    let match = this.regexp.exec(state.src.slice(state.pos));
+    const match = this.regexp.exec(state.src.slice(state.pos));
     if (!match) return false;
 
     state.pos += match[0].length;
     if (silent) return true;
 
-    let token = state.push(this.id, "", 0);
+    const token = state.push(this.id, "", 0);
     token.meta = { match: match };
     return true;
 };
