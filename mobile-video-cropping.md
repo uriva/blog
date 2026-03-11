@@ -63,10 +63,7 @@ Here is an example of the algorithm in action:
 
 ### Original Video (16:9)
 
-<video controls width="100%">
-  <source src="./original.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/aO5p6xxaUBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Final Smart Cropped Result (9:16)
 
