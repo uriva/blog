@@ -67,7 +67,4 @@ Here is an example of the algorithm in action:
 
 ### Final Smart Cropped Result (9:16)
 
-<video controls width="100%">
-  <source src="./final.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<iframe width="315" height="560" src="https://www.youtube.com/embed/sOmsOWYRUVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
