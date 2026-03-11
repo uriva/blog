@@ -8,6 +8,9 @@ hero:
   tagline: blog
   actions:
     - theme: alt
+      text: Smart Mobile Video Cropping for find-scene
+      link: /mobile-video-cropping
+    - theme: alt
       text: India - Journal of a Visit
       link: /india-journal-of-a-visit
     - theme: alt
